@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daftar Kado</title>
+<style>
+  :root { --bg:#fdf8f4; --card:#fff; --ink:#3a3a3a; --muted:#8a8a8a; --accent:#e8a0a8; --line:#f0e6df; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 48px; }
+  h1 { text-align:center; margin:0 0 4px; font-size:2rem; }
+  .sub { text-align:center; color:var(--muted); margin:0 0 28px; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,.05); }
+  th, td { padding:12px 14px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { background:var(--accent); color:#fff; font-weight:600; }
+  tr:last-child td { border-bottom:none; }
+  td.no { width:36px; color:var(--muted); }
+  td.nilai { white-space:nowrap; text-align:right; }
+  th.nilai { text-align:right; }
+  tfoot td { font-weight:700; background:#fbf1ee; }
+  .note { color:var(--muted); font-size:.85rem; margin-top:12px; }
+  @media (max-width:560px) { th, td { padding:10px 8px; font-size:.9rem; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>🎁 Daftar Kado</h1>
+  <p class="sub">Terima kasih untuk semua yang sudah memberi 💕</p>
+  <table>
+    <thead>
+      <tr><th>#</th><th>Dari</th><th>Kado</th><th class="nilai">Nilai</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="no">1</td><td>Dio</td><td>Baju dan bantal (2 baju + 1 bantal)</td><td class="nilai">–</td></tr>
+      <tr><td class="no">2</td><td>Direktorat</td><td>Pompa ASI</td><td class="nilai">Rp1.300.000</td></tr>
+      <tr><td class="no">3</td><td>Tim KDKMP</td><td>Baju + tas baby</td><td class="nilai">Rp1.200.000</td></tr>
+      <tr><td class="no">4</td><td>Bu Dir</td><td>Sterilizer Chicco</td><td class="nilai">Rp1.000.000</td></tr>
+      <tr><td class="no">5</td><td>PKPM</td><td>Botol dot dan baju</td><td class="nilai">Rp1.500.000</td></tr>
+      <tr><td class="no">6</td><td>Om Zul</td><td>Baju</td><td class="nilai">–</td></tr>
+      <tr><td class="no">7</td><td>Inspektorat</td><td>–</td><td class="nilai">Rp500.000</td></tr>
+      <tr><td class="no">8</td><td>Kak Fitri</td><td>Tobang Go Dang</td><td class="nilai">Rp500.000</td></tr>
+      <tr><td class="no">9</td><td>Wawa Dita</td><td>Bouncer</td><td class="nilai">Rp600.000</td></tr>
+      <tr><td class="no">10</td><td>Mas Ozi</td><td>UV sterilizer mini</td><td class="nilai">Rp360.000</td></tr>
+      <tr><td class="no">11</td><td>Dita</td><td>Emas 0,25 gr + baju 5 pasang</td><td class="nilai">–</td></tr>
+      <tr><td class="no">12</td><td>Dit 4</td><td>Gendongan M-shape + uang</td><td class="nilai">–</td></tr>
+      <tr><td class="no">13</td><td>Rayhan Y P</td><td>Sage Sora line set</td><td class="nilai">Rp236.000</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td></td><td colspan="2">Total (yang tercatat nilainya)</td><td class="nilai">Rp7.196.000</td></tr>
+    </tfoot>
+  </table>
+  <p class="note">Catatan: “–” berarti nilai/kado tidak dicatat.</p>
+</main>
+</body>
+</html>
